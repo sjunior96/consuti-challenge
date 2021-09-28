@@ -1,0 +1,68 @@
+#root-modal {
+    position: fixed;
+    top     : 0px;
+    left    : 0px;
+    width   : 100%;
+    z-index: 3;
+}
+
+#root-modal .box-modal {
+    background-color: var(--modal-portal-background-color);
+    display         : block;
+    height          : 100vh;
+    overflow        : auto;
+    padding         : 60px 0 20px 0;
+    width           : 100%;
+}
+
+#root-modal [class*='size-'] {
+    background-color: var(--modal-background-color);
+    border-radius   : 10px;
+    color           : var(--modal-color);
+    display         : block;
+    margin          : 0px auto;
+    width           : 100%;
+}
+
+#root-modal .modal-header {
+    align-items: center;
+    font-size  : 1.2em;
+    padding    : 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#root-modal .modal-header h5 {
+    opacity       : 1;
+    padding-bottom: 2px;
+    border-bottom : 1px solid var(--modal-header-line);
+}
+
+#root-modal .modal-content {
+    font-size    : 1em;
+    padding      : 0vh 2.5vw 0vh 2.5vw;
+    max-height   : 600px;
+}
+
+#root-modal .size-small {
+    max-width : 300px;
+    overflow-y: initial !important;
+}
+
+#root-modal .size-medium {
+    max-width : 500px;
+    overflow-y: initial !important;
+}
+
+#root-modal .size-large {
+    max-width : 900px;
+    overflow-y: initial !important;
+}
+
+#root-modal .modal-footer {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    margin-top     : 4vh;
+    padding-bottom : 3.5vh;
+}

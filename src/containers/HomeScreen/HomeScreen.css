@@ -1,0 +1,12 @@
+.app .button {
+    margin    : 2rem;
+    align-self: center;
+}
+
+.app .app-content .modern-table {
+    max-height: calc(100vh - 100px);
+}
+
+.app .app-content {
+    overflow-y: auto;
+}

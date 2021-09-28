@@ -1,0 +1,38 @@
+.btn {
+    padding         : .5rem 1rem;
+    border-radius   : .5rem;
+    border          : none;
+    margin          : .25rem;
+    cursor          : pointer;
+    background-color: var(--button-color);
+}
+
+.btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+.btn.primary:hover {
+    background-color: var(--button-primary-hover-color);
+}
+
+.btn.danger:hover {
+    background-color: var(--button-danger-hover-color);
+}
+
+.btn.circle {
+    border-radius  : 100%;
+    padding        : .5rem;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.btn.primary {
+    background-color: var(--button-primary-color);
+    color           : #FFF;
+}
+
+.btn.danger {
+    background-color: #DC3545;
+    color           : #FFF;
+}
